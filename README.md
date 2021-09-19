@@ -8,7 +8,7 @@ Astro component for using pandoc to convert content. This allows you to embed an
 ## Usage
 ```astro
 ---
-import Pandoc from "astro-pandoc";
+import { Pandoc } from "astro-pandoc";
 ---
 <Pandoc caller={import.meta.url} file="Component.tex" extraArgs={["--webtex"]} /
 ```
