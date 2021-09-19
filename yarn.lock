@@ -913,6 +913,11 @@ astring@^1.7.4:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.7.5.tgz#a7d47fceaf32b052d33a3d07c511efeec67447ca"
   integrity sha512-lobf6RWXb8c4uZ7Mdq0U12efYmpD1UFnyOWVJPTa3ukqZrMopav+2hdNu0hgBF0JIBFK9QgrBDfwYvh3DFJDAA==
 
+astro-command@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/astro-command/-/astro-command-0.0.6.tgz#18892e0955c785834e6204e102ffc5fcfe868c06"
+  integrity sha512-0qwXETaE4dY0vtmoHJ3JWjQ0ii9s1DKogJZotVqQ/MaLRlVD8vq/0krc70JuzzpVIHJ2aOD1dpXMhYMCHYEE9g==
+
 astro@^0.18.13:
   version "0.18.13"
   resolved "https://registry.yarnpkg.com/astro/-/astro-0.18.13.tgz#33f8c2e7c89477fd559fbcf1adc8afc95ce48398"

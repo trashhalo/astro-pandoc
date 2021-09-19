@@ -1,0 +1,6 @@
+---
+import { Command } from "astro-command";
+const {caller, file, extraArgs = [], template = "template.html"} = Astro.props;
+const args = ["--self-contained", "-t html", "--template=\"template.html\""].concat(extraArgs).concat([file]);
+---
+<Command caller={caller} command="pandoc" sendProps={false} args={args} />

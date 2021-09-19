@@ -1,4 +1,10 @@
 ---
-import Command from "../components/Command.astro";
+import Pandoc from './Pandoc.astro'
 ---
-<Command caller={import.meta.url} command="Component.py" message="from python!" />
+<h1> Pandoc Demo </h1>
+<h2>latex</h2> 
+<Pandoc caller={import.meta.url} file="Component.tex" extraArgs={["--webtex"]} />
+<h2>csv</h2> 
+<Pandoc caller={import.meta.url} file="Table.csv" />
+<h2>docx</h2> 
+<Pandoc caller={import.meta.url} file="helloworld.docx" />

@@ -1,15 +1,17 @@
 {
-  "name": "astro-command",
-  "version": "0.0.4",
+  "name": "astro-pandoc",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "keywords": ["astro-component"],
-  "repository": "trashhalo/astro-command",
+  "repository": "trashhalo/astro-pandoc",
   "scripts": {
     "start": "astro dev",
     "test": "astro build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "astro-command": "^0.0.6"
+  },
   "devDependencies": {
     "astro": "^0.18.13"
   }

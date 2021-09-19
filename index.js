@@ -1,1 +1,1 @@
-export { default as Command } from './src/components/Command.astro';
+export { default as Pandoc } from './src/components/Pandoc.astro';
